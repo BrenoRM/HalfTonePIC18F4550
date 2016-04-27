@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+C0::PORTBbits.RB0	C:\Users\Lucas\Desktop\Serial\rs232.c	53;"	d	line:53	file:
+C0_DIR::DDRBbits.RB0	C:\Users\Lucas\Desktop\Serial\rs232.c	62;"	d	line:62	file:
+C1::PORTBbits.RB1	C:\Users\Lucas\Desktop\Serial\rs232.c	54;"	d	line:54	file:
+C1_DIR::DDRBbits.RB1	C:\Users\Lucas\Desktop\Serial\rs232.c	63;"	d	line:63	file:
+C2::PORTBbits.RB2	C:\Users\Lucas\Desktop\Serial\rs232.c	55;"	d	line:55	file:
+C2_DIR::DDRBbits.RB2	C:\Users\Lucas\Desktop\Serial\rs232.c	64;"	d	line:64	file:
+C3::PORTBbits.RB3	C:\Users\Lucas\Desktop\Serial\rs232.c	56;"	d	line:56	file:
+C3_DIR::DDRBbits.RB3	C:\Users\Lucas\Desktop\Serial\rs232.c	65;"	d	line:65	file:
+CMD::0	C:\Users\Lucas\Desktop\Serial\LCD8.H	7;"	d	line:7
+ClearLCD	C:\Users\Lucas\Desktop\Serial\LCD8.H	14;"	p	line:14	signature:(void)
+DAT::1	C:\Users\Lucas\Desktop\Serial\LCD8.H	8;"	d	line:8
+DISPLAY::PORTD	C:\Users\Lucas\Desktop\Serial\rs232.c	46;"	d	line:46	file:
+DISPLAY_DIR::DDRD	C:\Users\Lucas\Desktop\Serial\rs232.c	49;"	d	line:49	file:
+Delay100us	C:\Users\Lucas\Desktop\Serial\LCD8.H	12;"	p	line:12	signature:(void)
+Delay5ms	C:\Users\Lucas\Desktop\Serial\LCD8.H	11;"	p	line:11	signature:(void)
+EN::PORTEbits.RE1	C:\Users\Lucas\Desktop\Serial\rs232.c	45;"	d	line:45	file:
+EN_DIR::DDREbits.RE1	C:\Users\Lucas\Desktop\Serial\rs232.c	48;"	d	line:48	file:
+GotoXYLCD	C:\Users\Lucas\Desktop\Serial\LCD8.H	15;"	p	line:15	signature:(unsigned char x,unsigned char y)
+IN::1	C:\Users\Lucas\Desktop\Serial\rs232.c	40;"	d	line:40	file:
+L0::PORTBbits.RB4	C:\Users\Lucas\Desktop\Serial\rs232.c	60;"	d	line:60	file:
+L0_DIR::DDRBbits.RB4	C:\Users\Lucas\Desktop\Serial\rs232.c	66;"	d	line:66	file:
+L1::PORTBbits.RB5	C:\Users\Lucas\Desktop\Serial\rs232.c	59;"	d	line:59	file:
+L1_DIR::DDRBbits.RB5	C:\Users\Lucas\Desktop\Serial\rs232.c	67;"	d	line:67	file:
+L2::PORTBbits.RB6	C:\Users\Lucas\Desktop\Serial\rs232.c	58;"	d	line:58	file:
+L2_DIR::DDRBbits.RB6	C:\Users\Lucas\Desktop\Serial\rs232.c	68;"	d	line:68	file:
+L3::PORTBbits.RB7	C:\Users\Lucas\Desktop\Serial\rs232.c	57;"	d	line:57	file:
+L3_DIR::DDRBbits.RB7	C:\Users\Lucas\Desktop\Serial\rs232.c	69;"	d	line:69	file:
+OUT::0	C:\Users\Lucas\Desktop\Serial\rs232.c	39;"	d	line:39	file:
+OpenLCD	C:\Users\Lucas\Desktop\Serial\LCD8.H	13;"	p	line:13	signature:(void)
+RS::PORTEbits.RE0	C:\Users\Lucas\Desktop\Serial\rs232.c	44;"	d	line:44	file:
+RS_DIR::DDREbits.RE0	C:\Users\Lucas\Desktop\Serial\rs232.c	47;"	d	line:47	file:
+WriteLCD	C:\Users\Lucas\Desktop\Serial\LCD8.H	16;"	p	line:16	signature:(unsigned char data, unsigned char CD)
+main	C:\Users\Lucas\Desktop\Serial\rs232.c	74;"	f	line:74	signature:(void)
+msg_lcd	C:\Users\Lucas\Desktop\Serial\rs232.c	77;"	l	line:77
+msg_serial	C:\Users\Lucas\Desktop\Serial\rs232.c	76;"	l	line:76
+rx	C:\Users\Lucas\Desktop\Serial\rs232.c	78;"	l	line:78
+tecla	C:\Users\Lucas\Desktop\Serial\rs232.c	78;"	l	line:78
