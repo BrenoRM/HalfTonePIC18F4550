@@ -321,7 +321,7 @@ void main (void)
            printf("P2\n\r");
            printf("# CREATOR: Francis e Brm\n\r");
            printf("%d %d\n\r", WIDTH_2, HEIGHT_2);
-           printf("128\n\r\n\r");
+           printf("125\n\r\n\r");
            for(line = 0; line < HEIGHT; line++)
            {
                 //printf("calculando halftone linha[%d]:\n\r", line);
