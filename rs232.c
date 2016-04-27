@@ -212,7 +212,7 @@ void printHalftoneForPixelLine()
     {
         for(j = 0; j < WIDTH_2; j++)
         {
-            printf("%c", aux[i][j]);
+            printf("%u\n\r", aux[i][j]);
         }
     }
 }
@@ -221,38 +221,38 @@ void buildMatrixForPixelLine(int category, int col)
 {
     switch(category){
         case 0:
-            aux[0][2*col]       = 33;
-            aux[0][(2*col) + 1] = 33;
-            aux[1][2*col]       = 33;
-            aux[1][(2*col) + 1] = 33;
+            aux[0][2*col]       = 0;
+            aux[0][(2*col) + 1] = 0;
+            aux[1][2*col]       = 0;
+            aux[1][(2*col) + 1] = 0;
             break;
             
         case 1:
-            aux[0][2*col]       = 125;
-            aux[0][(2*col) + 1] = 33;
-            aux[1][2*col]       = 33;
-            aux[1][(2*col) + 1] = 33;
+            aux[0][2*col]       = 128;
+            aux[0][(2*col) + 1] = 0;
+            aux[1][2*col]       = 0;
+            aux[1][(2*col) + 1] = 0;
             break;
             
         case 2:
-            aux[0][2*col]       = 125;
-            aux[0][(2*col) + 1] = 33;
-            aux[1][2*col]       = 33;
-            aux[1][(2*col) + 1] = 125;
+            aux[0][2*col]       = 128;
+            aux[0][(2*col) + 1] = 0;
+            aux[1][2*col]       = 0;
+            aux[1][(2*col) + 1] = 128;
             break;
             
         case 3:
-            aux[0][2*col]       = 125;
-            aux[0][(2*col) + 1] = 125;
-            aux[1][2*col]       = 33;
-            aux[1][(2*col) + 1] = 125;
+            aux[0][2*col]       = 128;
+            aux[0][(2*col) + 1] = 128;
+            aux[1][2*col]       = 0;
+            aux[1][(2*col) + 1] = 128;
             break;
             
         case 4:
-            aux[0][2*col]       = 125;
-            aux[0][(2*col) + 1] = 125;
-            aux[1][2*col]       = 125;
-            aux[1][(2*col) + 1] = 125;
+            aux[0][2*col]       = 128;
+            aux[0][(2*col) + 1] = 128;
+            aux[1][2*col]       = 128;
+            aux[1][(2*col) + 1] = 128;
             break;
     };
 }
